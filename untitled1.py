@@ -8,6 +8,7 @@ Created on Sun Jan 29 15:46:54 2023
 
 
 from sklearn.linear_model import LogisticRegressionCV
+print ("edit")
 iris=sns.load_dataset("iris")
 X=iris.values[:,:4]
 y=iris.values[:,4]
