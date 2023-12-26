@@ -6,7 +6,7 @@ Created on Sun Jan 29 15:46:54 2023
 """
 
 import seaborn as sns
-from sklearn.model_selection import train_test_split
+
 from sklearn.linear_model import LogisticRegressionCV
 iris=sns.load_dataset("iris")
 X=iris.values[:,:4]
